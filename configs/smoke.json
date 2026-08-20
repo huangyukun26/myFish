@@ -1,0 +1,15 @@
+{
+  "dataset_root": "dataset",
+  "smoke_output": "work/smoke_subset",
+  "run_root": "runs",
+  "classes": 16,
+  "min_images_per_class": 4,
+  "max_images_per_class": 6,
+  "val_per_class": 1,
+  "epochs": 3,
+  "batch_size": 16,
+  "image_size": 128,
+  "num_workers": 0,
+  "seed": 2026
+}
+

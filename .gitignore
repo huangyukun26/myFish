@@ -1,0 +1,52 @@
+# Local environments and dependency caches
+.venv_cuda/
+.deps/
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Competition data, runs, logs, and generated outputs
+dataset/
+runs/
+work/
+logs/
+outputs/
+classification_results.csv
+
+# Curated documentation export (older scratch notes stay local)
+docs/*
+!docs/CURRENT_BEST.md
+!docs/NEXT_SEEN_080_PLAN_20260718.md
+!docs/CLOUD_EXPERIMENT_REPORT_20260714.md
+!docs/V12_PUBLIC_FAILURE_AND_NEXT_PLAN_20260714.md
+!docs/ANALYSIS_AND_NEXT_PLAN_20260714.md
+
+# Large generated artifacts and model weights
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
