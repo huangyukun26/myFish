@@ -79,3 +79,16 @@ visual-trait 方向明显负收益（species `-135`，genus `-117`）。P1 没�
 - **P5：全量 test 推理、锁定 overlay、打包提交。** 只有 P3/P4 在 sealed 多 seed 同向净增后才能执行；本轮没有达到这个入口条件。
 
 下一轮应先完成 P3 的 group-aware OOF 候选重排，未达到预设净增门槛就不进入 P4/P5。
+
+## P5：当前最佳结果候选包
+
+按用户要求，已基于当前线上最佳包制作独立候选目录：
+
+- 本地目录：`runs/submission_p5_current_best_20260820/`
+- 提交文件：`runs/submission_p5_current_best_20260820/submission.zip`
+- ZIP 内容：仅 `prediction.json`
+- 预测行数：`35,665`（seen `20,097` + unseen `15,568`）
+- prediction SHA256：`c625868055fefd0b4d5e6c0cddc0bb0de90998d95e4afe8591202db4bed94408`
+- candidate ZIP SHA256：`a274099734e540030c9b6ca477080e0e5e95ed311c98cc722229582cd0ed33af`
+
+Guard 结果：`pass`；相对 current online-best 的 changed rows 为 `0`，相对受保护祖先的 locked rows 触碰为 `0`。因此这是安全的 current-best 复刻包，不是新的增益方案，预期分数与当前线上最佳相同。
