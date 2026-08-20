@@ -27,6 +27,7 @@ docs/*
 !docs/CLOUD_EXPERIMENT_REPORT_20260714.md
 !docs/V12_PUBLIC_FAILURE_AND_NEXT_PLAN_20260714.md
 !docs/ANALYSIS_AND_NEXT_PLAN_20260714.md
+!docs/RESEARCH_ROUND_20260820_P0_P1_P2.md
 
 # Large generated artifacts and model weights
 *.zip
